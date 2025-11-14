@@ -25,3 +25,11 @@ Example:
 10
 ...
 """
+count=0
+import time
+delay = .4
+
+while count<20 :
+    count = count + 2
+    print(count)
+    time.sleep(delay)

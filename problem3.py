@@ -13,3 +13,21 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+
+
+        
+        
+
+
+def fig(n):
+    a = 0
+    b = 1
+    c = a+b
+    while c < 100:
+        c = a+b
+        a=b
+        b=c
+       
+        print(c)
+        
+fig(1)
